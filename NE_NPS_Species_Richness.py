@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import altair as alt
-from sklearn.metrics import r2_score 
 
 # load & inspect dataset
 data_table = "NPS_Species_Richness_Lat_Lon.csv"

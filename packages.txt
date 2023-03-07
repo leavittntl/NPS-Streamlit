@@ -1,2 +1,0 @@
-python3-sklearn
-python3-sklearn-lib
