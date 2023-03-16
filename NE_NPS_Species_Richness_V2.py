@@ -277,8 +277,14 @@ st.subheader('Closing Thoughts:')
 st.write("""
     Overall, the use of GPT-3 for data collection, aggregation, 
     and site scraping is very easy to use and can save a significant amount time. 
-    Even though its assessment of the findings was very surface level, 
-    it still can be used to present possible avenues of further exploration.
+    Even though its assessment of the findings were very surface level, 
+    it still can be used to present possible avenues of further exploration. 
+    For example, GPT-3 was able to point out that there is a statistically significant 
+    correlation between the number of mammals and the number of birds in the parks. 
+    Which is supported by the correlation matrix, shown above in “Explore Utility” section, 
+    with a value of 0.77. That said, there are correlation values significantly high than the one shown for mammals vs birds, 
+    such as reptiles vs amphibians at a value of 0.94. We could have asked GPT-3 as to why it did not recommend this correlation, 
+    but let’s save this question for another time…
     
     Somethings to note: \n
     1.	There were some variations within the names of parks returned, when re-testing the “” prompt. This might be mitigated by adjusting the “temperature” setting down to “0”, but further testing is required.
